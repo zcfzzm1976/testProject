@@ -13,7 +13,7 @@ public class UserAction {
 
     @RequestMapping("getUser")
     public UserBean getBean(){
-        return new UserBean(1,"张翔","13594864390");
+        return new UserBean(1,"张无忌","13594864390");
     }
 
     @RequestMapping("findAll")
